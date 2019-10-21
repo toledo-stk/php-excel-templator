@@ -1,10 +1,10 @@
 <?php
 
-namespace alhimik1986\PhpExcelTemplator\setters;
+namespace toledoStk\PhpExcelTemplator\setters;
 
 use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
-use alhimik1986\PhpExcelTemplator\InsertedCells;
-use alhimik1986\PhpExcelTemplator\params\SetterParam;
+use toledoStk\PhpExcelTemplator\InsertedCells;
+use toledoStk\PhpExcelTemplator\params\SetterParam;
 
 interface ICellSetter
 {
