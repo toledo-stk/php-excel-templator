@@ -1,14 +1,14 @@
 <?php
 
-namespace alhimik1986\PhpExcelTemplator\setters;
+namespace toledoStk\PhpExcelTemplator\setters;
 
 use Exception;
 use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
-use alhimik1986\PhpExcelTemplator\InsertedCells;
-use alhimik1986\PhpExcelTemplator\params\SetterParam;
-use alhimik1986\PhpExcelTemplator\params\ExcelParam;
-use alhimik1986\PhpExcelTemplator\params\CallbackParam;
+use toledoStk\PhpExcelTemplator\InsertedCells;
+use toledoStk\PhpExcelTemplator\params\SetterParam;
+use toledoStk\PhpExcelTemplator\params\ExcelParam;
+use toledoStk\PhpExcelTemplator\params\CallbackParam;
 
 class CellSetterArrayValueSpecial implements ICellSetter
 {
